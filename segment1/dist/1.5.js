@@ -8,4 +8,9 @@ const getFeature = {
     developingDuration: 3,
     isFinished: true
 };
-console.log(getFeature.feature);
+const getFeature2 = {
+    feature: 'Video Calling',
+    developingDuration: 3,
+    isFinished: true
+};
+// here user can't change the value because featuer properties have the readonly access modifier.

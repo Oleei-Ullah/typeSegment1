@@ -30,5 +30,4 @@ const getFeature2 : {
     developingDuration: 3,
     isFinished: true
 }
-
-getFeature2.feature = 'ph' // here user can't change the value because featuer properties have the readonly access modifier.
+// here user can't change the value because featuer properties have the readonly access modifier.
