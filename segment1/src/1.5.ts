@@ -18,3 +18,5 @@ const getFeature : {
     developingDuration: 3,
     isFinished: true
 }
+
+console.log(getFeature.feature);
