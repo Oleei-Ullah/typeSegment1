@@ -1,3 +1,7 @@
 "use strict";
-const message = "I love typescript to write error free code in preruntime!";
-console.log(message);
+const str = "Hello";
+const num = 23;
+const undefinedtype = undefined;
+const nullish = null;
+let d;
+d = 34;
