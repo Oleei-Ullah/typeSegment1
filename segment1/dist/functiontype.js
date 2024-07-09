@@ -14,4 +14,8 @@
         }
     };
     console.log(person.addBalance(5));
+    //callback function with typescript...
+    const arr = [2, 4, 5, 6];
+    const newArray = arr.map((ele) => ele + ele);
+    console.log(newArray);
 }

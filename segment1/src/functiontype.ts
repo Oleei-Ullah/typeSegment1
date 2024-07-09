@@ -24,7 +24,14 @@ const person = {
 console.log(person.addBalance(5));
 
 
+//callback function with typescript...
 
+
+const arr : number[] = [2,4,5,6];
+
+const newArray : number[] = arr.map((ele: number) : number =>  ele + ele);
+
+console.log(newArray);
 
 
 
