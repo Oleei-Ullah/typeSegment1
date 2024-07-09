@@ -19,4 +19,16 @@ const getFeature : {
     isFinished: true
 }
 
-console.log(getFeature.feature);
+
+
+const getFeature2 : {
+    readonly feature : string,  //Access modifier helps to dev to make decision on the peroperties accession.
+    developingDuration: number,
+    isFinished: boolean
+} = {
+    feature: 'Video Calling',
+    developingDuration: 3,
+    isFinished: true
+}
+
+getFeature2.feature = 'ph' // here user can't change the value because featuer properties have the readonly access modifier.
