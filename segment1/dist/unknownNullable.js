@@ -12,5 +12,10 @@
             result = +value / 3600;
         }
     };
-    getSpeedOfCarInPerHour(435434);
+    getSpeedOfCarInPerHour(4434);
+    //never type
+    const throwError = (msg) => {
+        throw new Error(msg);
+    };
+    throwError('It is an error. it will never give a return. So its type name is never type');
 }
